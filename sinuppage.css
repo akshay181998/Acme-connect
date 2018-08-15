@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body {
+	background:#34ace0;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.header{
+	display:grid;
+	grid-template-columns:20% 40% 40% ;
+	background-color:#2c3e50;
+	color:#dfe6e9;
+	max-height:80px;
+}
+.header .name{
+	font-weight:bold;
+	color:#e84118;
+	font-size:1.5em;
+}
+.header .box3{
+	display:grid;
+	grid-template-rows:30% 50%;
+	margin:0px;
+	padding:0px;
+}
+
+.header .box3 .box4{
+	padding:10px 0px 0px 0px;
+}
+.header input[type="email"] , .header input[type="password"] {
+	width:180px;
+	height:20px;
+	border:none;
+}
+
+.header .box4 input[type="submit"]{
+	width:70px;
+	text-transform:uppercase;
+	font-size:.8em;
+	padding:0px;
+	background-color:#e84118;
+	font-weight:bold;
+	color:#f5f6fa;
+	border:none;
+	height:22.5px;
+}
+
+.header .box3 .box5 a{
+	text-decoration:none;
+	color:#dfe6e9;
+	text-transform:uppercase;
+	padding:0px 100px 0px 0px;
+	font-size:1.0em;
+}
+
+.header .box3 .box5 {
+	font-size:1.0em;
+	padding:10px 0px 0px 0px ;
+}
+
+#main{
+	background:url('ok.jpg') ;
+	min-height:720px;
+	background-size:cover;
+}
+
+#main h1{
+	margin:0px;
+}
+
+#main .block2{
+	width:750px;
+	float:right;
+	display:grid;
+	grid-template-columns:40% 60%;
+	margin-right:20px;
+	height:400px;
+	margin-top:-225px;
+	background-color:#ecf0f1;
+	border:solid #2c3e50 5px;
+}
+
+#main .block2 .space2{
+	background-color:#2c3e50;
+	height:400px;
+	width:100%;
+	margin:auto;
+	margin-top:0px;
+	display:grid;
+	grid-template-rows:20% 20% 20% 20% 20% ;
+
+}
+
+
+#main .userbox,.emailbox, .passwordbox, .conformpasswordbox, .buttonbox{
+	padding:30px 0px 35px 20px;
+	width:100%;
+}
+
+#main .block2 input{
+	float:right;
+	width:300px;
+	height:30px;
+	border:none;
+	margin-right:50px;
+	padding-left:20px;
+	font-size:1.0em;
+}
+
+#main .block2 input[type="submit"]{
+	width:70px;
+	text-transform:uppercase;
+	font-size:.8em;
+	padding:0px;
+	background-color:#e84118;
+	font-weight:bold;
+	color:#f5f6fa;
+}
+
+#main .block1{
+	width:40%;
+	padding:100px 0px 0px 20px;
+
+}
+
+#main .block1 h1{
+	text-transform:uppercase;
+	font-size:2em;
+	margin:0px;
+}
+
+#main .block2 p{
+	line-height:60px;
+}
+
+#main .block2 .space1 {
+	display:grid;
+	grid-template-rows:20% 20% 20% 20% 15%;
+	height:100%;
+}
+
+#main .block2 .space1 img{
+	width:30px;
+	float:right;
+	padding:10px 5px 0px 0px;
+}
+
+#main .block2 .space1 .box1 ,#main .block2 .space1 .box2 ,#main .block2 .space1 .box3 {
+	display:grid;
+	grid-template-columns:25% 75%;
+}
+
+#main .block2 .space1 h1{
+	margin:auto;
+
+	font-size:1.4em;
+}
+
+#main .block2 .space1 h2 {
+	float:left;
+	font-size:1.0em;
+}
+
+
